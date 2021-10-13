@@ -8,12 +8,13 @@
 </head>
 <body>
     <?php
-        $num1 = 4;
-        $num2 = 8;
-        if ($num1 < $num2) {
-            echo "$num2 es el mayor de los dos numeros.";
-        } else
-            echo "$num1 es el mayor de los dos numeros.";
+        $num = 5;
+        $fact = 1;
+        for ($i = 1; $i <= $num; $i ++)
+        {
+            $fact *= $i;  
+        }
+        echo $fact;
     ?>
 </body>
 </html>

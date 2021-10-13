@@ -8,12 +8,13 @@
 </head>
 <body>
     <?php
-        $num1 = 4;
-        $num2 = 8;
-        if ($num1 < $num2) {
-            echo "$num2 es el mayor de los dos numeros.";
-        } else
-            echo "$num1 es el mayor de los dos numeros.";
+        echo "Include</br>";
+        include 'funciones.inc.php';
+        echo "</br>Include_once</br>";
+        include_once 'funciones2.inc.php';
+        echo "</br>Require</br>";
+        require 'funciones2.inc.php';
+        echo "Hola Mundo";
     ?>
 </body>
 </html>
